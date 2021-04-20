@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+
+.for_image {
+	width: 100%;
+}
+
+.ggg {
+	margin: 0 auto;
+}
