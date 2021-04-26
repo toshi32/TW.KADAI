@@ -10,16 +10,13 @@
   </head>
 
   <body>
-    <div class = "wrapper for_image">
-     <header>
-    <%= image_tag "head.jpg",size: "700x300", class: "img_head" %>
-     </header>
-  <div class = "main_body">
-    <%= yield %>
-  </div>
-  <footer>
-  <%= image_tag "head.jpg",size: "700x300", class: "img_foot" %>
-  </footer>
-</div>
+    <div class = "wrapper for_image"></div>
+    <header>
+      <%= yield %>
+    </header>
+    <div class = "main_body"></div>
+    <footer>
+        <%= image_tag "head.jpg",size: "700x300", class: "img_foot" %>
+    </footer>
   </body>
 </html>
